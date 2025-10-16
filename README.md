@@ -2,7 +2,7 @@ Smart Task Tracker (CA Firm)
 
 
 
-🚀 Overview
+# Overview
 
 Smart Task Tracker is a full-stack web app for CA firms, designed to simplify task and workflow management. It supports:
 
@@ -23,7 +23,7 @@ It helps CA firms track tasks efficiently, reduce manual effort, and maintain ac
 
 
 
-🎯 Features
+# Features
 Admin
 
 Create and assign tasks to self or users
@@ -56,7 +56,7 @@ View personal analytics and export reports
 
 
 
-🛠️ Tech Stack
+# Tech Stack
 
 Frontend: React, React Router, Bootstrap, Axios, react-toastify, chrono-node, xlsx
 Backend: Node.js, Express.js, MongoDB, Mongoose
@@ -66,7 +66,7 @@ Deployment: Frontend: Vercel | Backend: Render
 
 
 
-📦 Installation & Setup
+# Installation & Setup
 Prerequisites
 
 Node.js (v16+)
@@ -96,7 +96,7 @@ Visit http://localhost:3000 to access the app.
 
 
 
-📊 Usage
+# Usage
 
 Sign Up / Login as Admin or User
 
@@ -114,7 +114,7 @@ Bulk Upload: Admin imports multiple tasks from Excel/CSV
 
 
 
-🏗️ Project Architecture
+# Project Architecture
 
 Backend:
 
@@ -143,7 +143,7 @@ src/utils/ → helper functions (dates, filtering, xlsx parsing)
 
 
 
-🖼️ Screenshots / Demo
+# Screenshots / Demo
 
 Dashboard:
 
@@ -158,13 +158,13 @@ Trash & Restore:
 
 
 
-✅ Testing
+# Testing
 cd server
 npm test
 Covers Auth, Task CRUD, Stats, Permissions, Trash/Restore, Dual Completion workflow
 
 
-🔒 Security & Permissions
+# Security & Permissions
 
 JWT-based authentication
 
@@ -179,7 +179,7 @@ Soft-delete & ownership checks for task deletion
 
 
 
-📈 Future Improvements
+# Future Improvements
 
 AI-powered task suggestions
 
