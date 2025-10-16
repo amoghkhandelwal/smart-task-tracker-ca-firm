@@ -145,21 +145,16 @@ src/utils/ → helper functions (dates, filtering, xlsx parsing)
 
 # Screenshots / Demo
 # Home: 
-<img width="2560" height="1600" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/786b2179-8e35-463b-a5f7-7bfdb45961b1" />
-<img width="2560" height="1600" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/24a79987-bacd-40a2-9e11-963ec6fe6511" />
-<img width="2560" height="1600" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/3c5a0521-7aee-4459-8a53-67d47b28f15b" />
 
 
 # Dashboard:
-<img width="2560" height="1600" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/2b49e76f-afa4-4d49-994b-83de6f21f778" />
-<img width="2560" height="1600" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/482ed061-4850-498c-8cdc-ce59e283c7a4" />
-<img width="2560" height="1600" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/81510a2f-e518-4f20-817c-228a9df7cb0c" />
+
 
 # Analytics:
-<img width="2560" height="1600" alt="Screenshot (39)" src="https://github.com/user-attachments/assets/8d760bcd-7d95-415b-8a9e-6750d3ad8ac3" />
+
 
 # Trash & Restore:
-<img width="2560" height="1600" alt="Screenshot (40)" src="https://github.com/user-attachments/assets/efdd7e3f-36b8-4909-b429-4cd371d313c2" />
+
 
 
 
