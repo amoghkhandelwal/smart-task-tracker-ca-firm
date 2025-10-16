@@ -1,0 +1,94 @@
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Inter', Arial, sans-serif;
+}
+
+.main-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  background-attachment: fixed;
+  width: 100vw;
+}
+
+.card, .glass-card {
+  background: rgba(255,255,255,0.95);
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+}
+
+input, textarea, select, .form-control, .form-select {
+  background: rgba(255,255,255,0.85) !important;
+}
+
+/* Dark mode styles */
+body.dark, html.dark, .dark .main-bg {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%) !important;
+  color: #f1f1f1;
+}
+body.dark .card, body.dark .glass-card, html.dark .card, html.dark .glass-card {
+  background: rgba(34, 34, 34, 0.97) !important;
+  color: #f1f1f1;
+  border-color: #333 !important;
+}
+body.dark .form-control, body.dark .form-select, html.dark .form-control, html.dark .form-select {
+  background: #232526 !important;
+  color: #f1f1f1 !important;
+  border-color: #444 !important;
+}
+body.dark .navbar, html.dark .navbar {
+  background: #18191a !important;
+}
+body.dark .btn, html.dark .btn {
+  color: #f1f1f1;
+}
+body.dark .text-muted, html.dark .text-muted {
+  color: #b0b0b0 !important;
+}
+body.dark .bg-light, html.dark .bg-light {
+  background: #232526 !important;
+}
+body.dark .bg-white, html.dark .bg-white {
+  background: #232526 !important;
+}
+body.dark .badge.bg-secondary, html.dark .badge.bg-secondary {
+  background: #444 !important;
+  color: #f1f1f1 !important;
+}
+
+/* Custom styles for home page */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.bg-opacity-10 {
+  --bs-bg-opacity: 0.1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+  
+  .display-5 {
+    font-size: 2rem;
+  }
+  
+  .display-6 {
+    font-size: 1.75rem;
+  }
+}

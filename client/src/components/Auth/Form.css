@@ -1,0 +1,38 @@
+/* src/components/Auth/Form.css */
+
+.auth-bg {
+  min-height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #ACB6E5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth-title {
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #343a40;
+  text-align: center;
+}
+/* Form.css or global styles */
+.input-group .form-control:focus {
+  border-color: #6c63ff;
+  box-shadow: 0 0 0 0.2rem rgba(108, 99, 255, 0.15);
+}
+.btn-primary:hover, .btn-success:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 2px 8px rgba(108,99,255,0.08);
+}
+.card {
+  border-radius: 1rem;
+}

@@ -1,0 +1,227 @@
+body, html {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Inter', Arial, sans-serif;
+  background: linear-gradient(135deg, #e3f2fd 0%, #b3e5fc 100%);
+}
+
+.main-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e3f2fd 0%, #b3e5fc 100%);
+  background-attachment: fixed;
+  width: 100vw;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body.dark-mode, .dark-mode {
+  background: #181a1b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .card {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+  border-color: #333 !important;
+}
+.dark-mode .form-control, .dark-mode .form-select {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+  border-color: #444 !important;
+}
+.dark-mode .btn {
+  background: #333 !important;
+  color: #f1f1f1 !important;
+  border-color: #444 !important;
+}
+.dark-mode .btn-outline-primary {
+  color: #90caf9 !important;
+  border-color: #90caf9 !important;
+}
+.dark-mode .btn-outline-danger {
+  color: #f48fb1 !important;
+  border-color: #f48fb1 !important;
+}
+.dark-mode .navbar, .dark-mode .navbar-light, .dark-mode .navbar-dark {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .list-group-item {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+  border-color: #333 !important;
+}
+.dark-mode .modal-content {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .dropdown-menu {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .table {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .bg-light {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .bg-white {
+  background: #23272b !important;
+  color: #f1f1f1 !important;
+}
+.dark-mode .text-dark,
+.dark-mode .form-label,
+.dark-mode label,
+.dark-mode .nav-link,
+.dark-mode .table th,
+.dark-mode .table td {
+  color: #f1f1f1 !important;
+}
+.dark-mode .text-muted {
+  color: #b0b0b0 !important;
+}
+/* Add more as needed for charts, etc. */
+
+.dark-mode .btn-success,
+.dark-mode .btn-outline-success {
+  background: #43cea2 !important;
+  color: #181a1b !important;
+  border-color: #43cea2 !important;
+  font-weight: bold;
+}
+.dark-mode .btn-primary,
+.dark-mode .btn-outline-primary {
+  background: #90caf9 !important;
+  color: #181a1b !important;
+  border-color: #90caf9 !important;
+  font-weight: bold;
+}
+.dark-mode .btn-danger,
+.dark-mode .btn-outline-danger {
+  background: #f48fb1 !important;
+  color: #181a1b !important;
+  border-color: #f48fb1 !important;
+  font-weight: bold;
+}
+.dark-mode .btn,
+.dark-mode .btn-sm {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  border-radius: 0.3rem;
+}
+
+.dark-mode input::placeholder,
+.dark-mode textarea::placeholder,
+.dark-mode .form-control::placeholder {
+  color: #f1f1f1 !important;
+  opacity: 1;
+}
+
+.dark-mode .form-text {
+  color: #f1f1f1 !important;
+}
+
+.card, .glass-card {
+  background: #bbdefb !important;
+  border-radius: 1rem;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+}
+
+body.dark, html.dark, .dark .main-bg {
+  background: linear-gradient(135deg, #181a1b 0%, #232526 100%) !important;
+  color: #f1f1f1;
+}
+
+body.dark .card, html.dark .card, .dark .card, body.dark .glass-card, html.dark .glass-card, .dark .glass-card {
+  background: #232526 !important;
+  color: #f1f1f1;
+  border: 1.5px solid #333 !important;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.4);
+}
+
+body.dark .navbar, html.dark .navbar, .dark .navbar {
+  background: #181a1b !important;
+  color: #f1f1f1 !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+body.dark-mode .main-bg {
+  background: linear-gradient(135deg, #181a1b 0%, #232526 100%) !important;
+}
+
+input, textarea, select, .form-control, .form-select {
+  background: #eaf4fb !important;
+  border: 1px solid #b3c6e7 !important;
+  color: #222 !important;
+  border-radius: 0.5rem !important;
+}
+
+/* Subtasks checklist background */
+.list-group-flush {
+  background: #b3c6e7;
+  border-radius: 0.5rem;
+}
+.list-group-item {
+  background: #b3c6e7 !important;
+  border: none;
+}
+
+/* Custom checkbox styles for subtasks */
+input[type="checkbox"].form-check-input {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  border: 2px solid #1565c0;
+  background: #b3c6e7;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+  margin-right: 0.5em;
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  vertical-align: middle;
+}
+input[type="checkbox"].form-check-input:checked::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 50%;
+  background: #1565c0;
+  z-index: 1;
+}
+input[type="checkbox"].form-check-input:checked::after {
+  content: '\2713';
+  color: #fff;
+  font-size: 1em;
+  position: absolute;
+  top: 0.05em;
+  left: 0.22em;
+  font-weight: bold;
+  line-height: 1;
+  pointer-events: none;
+  z-index: 2;
+}
+input[type="checkbox"].form-check-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #90caf9;
+}
+
+/* Completed subtask text */
+.list-group-item .text-decoration-line-through {
+  color: #888 !important;
+}
+
+.navbar, .navbar-light, .navbar-dark {
+  background: #e3f2fd !important;
+  color: #222 !important;
+  box-shadow: 0 2px 8px rgba(31, 38, 135, 0.08);
+}
