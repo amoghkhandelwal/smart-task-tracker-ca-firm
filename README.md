@@ -81,14 +81,14 @@ Backend Setup
 cd server
 npm install
 cp .env.example .env
-# Set MONGO_URI, JWT_SECRET, PORT
+ Set MONGO_URI, JWT_SECRET, PORT
 npm start
 
 Frontend Setup
 cd client
 npm install
 cp .env.example .env
-# Set REACT_APP_API_URL=http://localhost:5000
+SET REACT_APP_API_URL=http://localhost:5000
 npm start
 
 
